@@ -5,6 +5,8 @@ using UnityEngine;
 /// <summary>
 /// 딕셔너리에 저장한 상태들의 인스턴스를 생성하며 초기화
 /// 매프레임마다 현재 상태의 Update를 호출할 수 있게 전환해줌
+/// 
+/// 사용법 : 캐릭터에 PlayerController 컴포넌트만 부착하여 사용하면 됨
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
